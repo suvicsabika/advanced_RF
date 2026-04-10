@@ -1,0 +1,58 @@
+# ---------- Unity generated ----------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# ---------- Auto-generated IDE files ----------
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Python / ML / TensorBoard ----------
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.python-version
+
+# training outputs / logs
+results/
+runs/
+mlruns/
+checkpoints/
+events.out.tfevents.*
+
+# local notebooks / caches
+.ipynb_checkpoints/
+
+# ---------- Optional local exports ----------
+/Exports/
+/BuildOutput/
+
+# ---------- Keep Unity metadata ----------
+!*.meta

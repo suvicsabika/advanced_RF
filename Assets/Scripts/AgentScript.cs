@@ -80,6 +80,11 @@ public class AgentScript : Agent
         }
     }
 
+    private void FixedUpdate()
+    {
+        RequestDecision();
+    }
+
     public override void Heuristic(in ActionBuffers actionsOut)
     {
         var discreteActions = actionsOut.DiscreteActions;
